@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/blue" 
+    android:icon="@drawable/ic_launcher" android:label="@string/app_name"
+     
+ >
+
+<LinearLayout 
+    class="com.neslihan.expandedlistview.MyCustomView"
+    android:layout_width="215dp"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+   
+    
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginTop="115dp"
+   
+   
+     >
+ 
+            <ExpandableListView
+                android:id="@+id/lvExp"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:cacheColorHint="@android:color/transparent"/>  
+ 
+</LinearLayout>
+</RelativeLayout>
